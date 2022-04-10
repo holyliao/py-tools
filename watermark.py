@@ -23,7 +23,6 @@ def create_watermark(input_path, text, textSize):
     # 绘制文本
     left = 100
     top = 100
-    text = '仅用于华为招聘，请勿私自保存，2022-04-09'
     textColor = (168, 255, 103)
     draw.text((left, top), text, textColor, font=fontStyle)
     # 转换回OpenCV类型
